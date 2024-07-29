@@ -3,7 +3,7 @@ const mqtt = require('mqtt');
 const app = express();
 const port = 3000;
 
-const brokerUrl = 'mqtt://54.197.132.147';
+const brokerUrl = 'mqtt://54.197.132.147'; // mqtt brokers
 const options = {
     username: '',
     password: '',
